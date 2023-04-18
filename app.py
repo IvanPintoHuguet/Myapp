@@ -1,9 +1,6 @@
-import customtkinter as ctk
+import tkinter as tk
 
-ctk.set_appearance_mode("dark")
-ctk.set_default_color_theme("blue")
-
-root = ctk.CTk()
+root = tk.Tk()
 root.geometry('400x400')
 root.title('App')
 
